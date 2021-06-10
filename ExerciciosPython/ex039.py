@@ -9,4 +9,4 @@ if idade <= 17:
 elif idade == 18:
     print('Já está na idade de se alistar. AVANTE SOLDADO!!!')
 else:
-    print('CORRA PARA SE ALISTAR!!! Você já têm {} anos, deveria ter se alistado com 18.'.format(idade))
+    print('CORRA PARA SE ALISTAR!!! Você já têm {} anos, passou {} anos do prazo.'.format(idade, idade - 18))
