@@ -19,4 +19,3 @@ if a + b > c and b + c > a:
 
 else:
     print('Os segmentos acima NÃO podem formar um triângulo.')
-    
