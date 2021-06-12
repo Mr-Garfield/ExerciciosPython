@@ -16,7 +16,7 @@ print('-'*70)
 print('ESCOLHA UM DOS MÉTODOS DE PAGAMENTO ACIMA!')
 metedo = int(input('DIGITE A OPÇÃO ESCOLHIDA: '))
 print('PROCESSANDO...')
-sleep(3)
+sleep(2)
 print('')
 if metedo == 1:
     desconto = value - value * 0.1
