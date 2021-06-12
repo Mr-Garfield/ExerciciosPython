@@ -13,9 +13,9 @@ if a + b > c and b + c > a:
     if a == b == c:
         print('Os segmentos acima formam um triângulo EQUILÁTERO.')
     elif a == b != c or b == c != a or a == c != b:
-        print('Os segmentos acima formam um triângulo ESCALENO.')
+        print('Os segmentos acima formam um triângulo ISÓSCELES.')
     elif a != b != c:
-        print('Os segementos acima formam um triângulo ISÓSCELES.')
+        print('Os segementos acima formam um triângulo ESCALENO.')
 
 else:
     print('Os segmentos acima NÃO podem formar um triângulo.')
