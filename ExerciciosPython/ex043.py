@@ -18,5 +18,5 @@ elif 25 <= IMC < 30:
 elif 30 <= IMC < 40:
     status = 'Obesidade'
 else:
-    status = 'Obesidade mórbida'
+    status = 'Obesidade mórbida, CUIDADO'
 print('O seu IMC é {:.2f} e seu estado é de: {}'.format(IMC, status))
