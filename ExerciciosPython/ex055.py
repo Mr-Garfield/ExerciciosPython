@@ -1,5 +1,5 @@
 '''
-Projeto: Maior e Menor Peso
+Projeto: Maior e Menor Peso 
 '''
 novaMassa = 0
 menorMassa =0
