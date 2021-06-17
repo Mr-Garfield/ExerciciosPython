@@ -1,9 +1,7 @@
 '''
 Projeto: Números primos
 '''
-
 from time import sleep
-
 
 def processando():
     print('PROCESSANDO', end='')
@@ -11,8 +9,8 @@ def processando():
         sleep(0.5)
         print('.', end='')
 
-
 contador = 0
+
 
 while True:
     n = int(input('Digite um número para saber se ele É ou NÃO primo: '))
@@ -32,6 +30,3 @@ processando()
 print()
 sleep(2)
 print('Foi um prazer ter você conosco, continue estudando :)!')
-
-
-
