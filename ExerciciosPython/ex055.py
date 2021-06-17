@@ -1,14 +1,10 @@
 '''
-Projeto: Maior e Menor Peso 
+Projeto: Maior e Menor Peso
 '''
-novaMassa = 0
-menorMassa =0
-maiorMassa = 0
+massa_lista = []
 for p in range(1,6):
-    massa = float(input('Digite sua massa corporal: '))
-    novaMassa = massa
-    if massa > novaMassa:
-        maiorMassa = massa
-    elif massa < novaMassa:
-        menorMassa = massa
-    print('A maior massa corporal é {} e a menor {}'.format(maiorMassa, menorMassa))
+    massa = float(input('Digite seu peso: '))
+    massa_lista.append(massa)
+
+print('O menor peso digitado foi {:.2f}kg'.format(min(massa_lista)))
+print('E o maior ditado foi {:.2f}kg'.format(max(massa_lista)))
