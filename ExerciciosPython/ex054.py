@@ -7,4 +7,4 @@ for ano in range(1,8):
     nascimento = int(input('Digite o ano em que você nasceu: '))
     if date.today().year - nascimento >= 21:
         contador += 1
-print('{} pessoas já atingiram a maioridade!'.format(contador))
+print('{} pessoas já atingiram a maioridade!'.format(contador)) 
