@@ -1,5 +1,5 @@
 '''
-Projeto: Escrever "Olá, Mundo!" na tela.
+Projeto: Escrever mensagem na tela
 '''
 
-print('Olá, Mundo!')
+print('Hello World!')
