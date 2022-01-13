@@ -29,3 +29,4 @@ for people in range(1, 5):
 print('A média de idade do grupo é {:.1f} anos'.format(groupAge / 4))
 print('O homem mais velho tem {} ano e se chama {}.'.format(ageOlderMan, nameOlderMan))
 print('O grupo tem {} mulhere(s) com menos de 20 anos.'.format(womenAccountant))
+
