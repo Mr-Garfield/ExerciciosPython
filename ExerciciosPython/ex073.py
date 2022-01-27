@@ -13,9 +13,8 @@ print('Lista do Brasileirão: ', brazilianTeams)
 print('=+='*7)
 print('Os 5 primeiros são: ', brazilianTeams[0:4])
 print('=+='*7)
-print('Os 4 últimos são: ', brazilianTeams[-5:])
+print('Os 4 últimos são: ', brazilianTeams[-4:])
 print('=+='*7)
-print('Os times em ordem alfabética: ', sorted(brazilianTeams))
+print('Os times em ordem alfabética: ', sorted(brazilianTeams)) # Mostra os nomes em ordem alfabética
 print('=+='*7)
-print(brazilianTeams.index('Chapecoense') + 1)
-
+print('O Chapecoense está na posição:', brazilianTeams.index('Chapecoense') + 1)
