@@ -1,5 +1,5 @@
 """
-Projeto:
+Projeto: Jogo de dados utilizando dicionario
 """
 
 from random import randint
