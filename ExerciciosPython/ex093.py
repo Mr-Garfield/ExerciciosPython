@@ -12,7 +12,7 @@ numbersGoals = list()
 for n in range(1, footballPlayer['partidas']+1):
     goals = int(input(f'{n}° jogo: '))
     numbersGoals.append(goals)
-print('=+='*5)
+print('=+='*12)
 
 footballPlayer['gols'] = numbersGoals
 footballPlayer['total'] = sum(numbersGoals)
