@@ -1,5 +1,5 @@
 """
-Projeto:
+Projeto: Função para sortear e somar
 """
 
 from random import randint
