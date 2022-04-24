@@ -1,2 +1,2 @@
 # Exercicios Python
- Exercícios em Python3 - Curso em Vídeo
+São mais de 11o exercícios resolvidos usando Python3
